@@ -4,24 +4,91 @@ body {
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
     "Helvetica Neue", sans-serif;
   min-height: 100vh;
+  font-size: 14px;
 }
 .container {
   width: 10vh;
 }
-/* #page-container {
+header > input {
+  font-weight: bold;
+}
+#main-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 3fr;
+}
+#main-product-list {
   display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+#main-advertisement {
+  display: flex;
+  gap: 30px;
   flex-direction: column;
   border: 1px solid black;
-  width: 100vw;
-  height: 100vh;
-  margin-bottom: 60px;
-} */
-main #header-navigator {
-  display: grid;
+  padding: 20px;
+  justify-content: center;
+}
+#main-advertisement > img {
+  width: 80%;
+  margin: auto;
+}
+#header {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   border: 1px solid black;
   width: 100%;
-  height: 60px;
+  height: 40px;
+  align-content: center;
+}
+#pantip-icon {
+  width: 90px;
+  background-color: blue;
+}
+#search-bar {
+  border-radius: 50px;
+  width: 20%;
+  height: 2rem;
+}
+
+.flex-row-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: auto;
+  margin-bottom: auto;
+  list-style-type: none;
+}
+#main-select-button ul {
+  gap: 20px;
+}
+#header > ul {
+  width: 40%;
+  gap: 10px;
+  border: 1px solid black;
+}
+
+#header li {
+  border: 1px solid black;
+  margin-right: 20px;
   text-align: center;
+}
+#header li a {
+  display: inline-block;
+  color: #000;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
 }
 #search-bar-expanded {
   display: grid;
@@ -41,19 +108,20 @@ main {
   height: 60px;
   text-align: center;
 }
-#main-product-list {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  flex-wrap: wrap;
-  padding-top: 20px;
-  justify-content: center;
-}
+
 .main-flex-item {
   width: 50px;
   height: 50px;
   flex-basis: 45%;
   border: 1px solid #000;
+}
+.main-icon {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  padding: auto;
 }
 footer {
   bottom: 0;
@@ -70,8 +138,4 @@ main > img {
   width: 100%;
   height: 60px;
   text-align: center;
-}
-#pantip-icon {
-  width: 70px;
-  background-color: blue;
 }
