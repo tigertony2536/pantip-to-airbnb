@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Pantip with Airbnb's style</title>
     <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/cd5faa649e.js" crossorigin="anonymous"></script>
   </head>
@@ -21,38 +21,46 @@
               <li><a href="#">ตั้งกระทู้</a></li>
               <li><a href="#">คอมมูนิตี้</a></li>
               <li><a href="#">เข้าสู่ระบบ/สมัครสมาชิก</a></li>
+              <i class="fa-solid fa-bars fa-2x" id="menu"></i>
             </ul>
           </nav>
-          <div id="search-bar-expanded">search-bar-expanded</div>
-        </header>
-        <main>
-          <img
+          <div id="search-bar-expanded">for-expandable-search-bar</div>
+            <img
             src="https://ptcdn.info/doodle/2024/5d07273900d01f33da0f618c_kltlxiu7k8.png"
             alt="Doodle"
           />
-          <div id="flex-row-contdivainer">
-          <div id="main-select-button">
+        </header>
+        <aside>
+          <ul>
+            <li>หน้าแรก</li>
+            <li>My Feed</li>
+            <li>หน้าแรก</li>
+            <li>หน้าแรก</li>
+          </ul>
+        </aside>
+        <main>
+          <div id="grid-container">
+              <div id="main-button">
             <ul class="flex-row-container">
-              <div class="main-icon"">icon1</div>
-              <div class="main-icon"">icon2</div>
-              <div class="main-icon"">icon3</div>
-              <div class="main-icon"">icon4</div>
-              <div class="main-icon"">icon5</div>
-              <div class="main-icon"">icon6</div>
-              <div class="main-icon"">icon7</div>
-              <div class="main-icon"">icon8</div>
+              <div class="main-icon" id="announce">Announce</div>
+              <div class="main-icon" id="room">เลือกห้อง</div>
+              <div class="main-icon" id="hightlight">Highlight</div>
+              <div class="main-icon" id="realtime">Pantip Realtime</div>
+              <div class="main-icon" id="pick">Pantip Pick</div>
+              <div class="main-icon" id="hitz">Pantip Hitz</div>
+              <div class="main-icon" id="hitTag">แท็กฮิต</div>
+              <div class="main-icon" id="club">คลับ</div>
             </ul>
-          </div>
-          <div id="main-grid">
-          <section id="main-product-list">
-            <article class="main-flex-item">1</article>
-            <article class="main-flex-item">2</article>
-            <article class="main-flex-item">3</article>
-            <article class="main-flex-item">4</article>
-            <article class="main-flex-item">5</article>
-            <article class="main-flex-item">6</article>
-          </section>
-          <section id="main-advertisement">
+              </div>
+              <section id="main-items">
+            <article class="main-flex-item">content</article>
+            <article class="main-flex-item">content</article>
+            <article class="main-flex-item">content</article>
+            <article class="main-flex-item">content</article>
+            <article class="main-flex-item">content</article>
+            <article class="main-flex-item">content</article>
+              </section>
+            <section id="main-advertisement">
             <img src="https://f.ptcdn.info/007/082/000/s2nc191schy1n4uqopP3L-o.jpg" alt="image1">
             <img src="https://f.ptcdn.info/102/083/000/s85jq621m8vDFqmyF0t2q-o.png" alt="image2">
             <img src="https://f.ptcdn.info/245/083/000/s8xv6c5dwhGV3CZR6yQZ-o.jpg" alt="image3">
@@ -61,15 +69,20 @@
             <img src="https://pantip.com/static/images/logo-pantown.png" alt="logo2">
             <img src="https://pantip.com/static/images/logo-pantipmarket.png" alt="logo3">
             <img src="https://pantip.com/static/images/logo-maggang.png" alt="logo4">
-          </section>
-          </div></div>
+            </section>
+         </div> 
         </main>
-        <footer>
-          footer
-          <section></section>
-          <section></section>
+        <footer class="flex-row-container">
+          <section>กฎ กติกาและมารยาท</section>
+          <section>คำแนะนำการโพสต์</section>
+          <section>นโยบายเกี่ยวกับข้อมูลส่วนบุคคล</section>
+          <section>สิทธิ์การใช้งานของสมาชิก</section>
+          <section>ติดต่อทีมงาน Pantip</section>
+          <section>ติดต่อลงโฆษณา</section>
+          <section>ร่วมงานกับ Pantip</section>
+          <section>Download App Pantip</section>
+          <section>Pantip Certified Developer</section>
         </footer>
-        
       </div>
     </body>
 </html>
